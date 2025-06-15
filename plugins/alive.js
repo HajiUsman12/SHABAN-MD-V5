@@ -13,7 +13,7 @@ cmd({
 },
 async (conn, mek, m, { from, sender, reply }) => {
     try {
-        const status = ` *📡 SHABAN MD V5*
+        const status = ` *📡 HASAN MD V5*
 
 ✅ *Status:* Active  
 👑 *Owner:* ${config.OWNER_NAME}  
@@ -27,7 +27,7 @@ __________________________________
 ${config.DESCRIPTION}`;
 
         await conn.sendMessage(from, {
-            image: { url: "https://i.ibb.co/nqRfh0SB/shaban-md.jpg" },
+            image: { url: "https://i.ibb.co/S7Q5x9LW/IMG-20250407-WA0027.jpg" },
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender],
@@ -35,7 +35,7 @@ ${config.DESCRIPTION}`;
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363358310754973@newsletter',
-                    newsletterName: 'MR-SHABAN⁴⁰',
+                    newsletterName: 'MR-HASAN⁴⁰',
                     serverMessageId: 143
                 }
             }
