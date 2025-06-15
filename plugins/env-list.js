@@ -19,7 +19,7 @@ cmd({
 async (conn, mek, m, { from, quoted, reply }) => {
     try {
         // Royal & Stylish Settings Message
-        let envSettings = `*⚙️SHABAN-MD SETTINGS⚙️*
+        let envSettings = `*⚙️HASAN-MD SETTINGS⚙️*
 
 ┣ 🔹 *status_view:* ${isEnabled(config.AUTO_STATUS_SEEN) ? "On" : "Off"}  
 ┣ 🔹 *status_reply:* ${isEnabled(config.AUTO_STATUS_REPLY) ? "On" : "Off"}  
@@ -47,7 +47,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: 'https://files.catbox.moe/yoqs4t.jpg' }, // Stylish Image
+                image: { url: 'https://i.ibb.co/S7Q5x9LW/IMG-20250407-WA0027.jpg' }, // Stylish Image
                 caption: envSettings,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -55,7 +55,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: "SʜᴀʙᴀɴMᴅ",
+                        newsletterName: "HᴀsᴀɴMᴅ",
                         serverMessageId: 143
                     }
                 }
