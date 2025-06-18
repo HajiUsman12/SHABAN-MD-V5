@@ -6,8 +6,8 @@ const AdmZip = require("adm-zip");
 const { setCommitHash, getCommitHash } = require('../data/updateDB');
 
 cmd({  
-  pattern: "update",  
-  alias: ["up", "sync"],  
+  pattern: "xx",  
+  alias: ["xx", "xx"],  
   react: '🆕',  
   desc: "Update the bot to the latest version.",  
   category: "misc",  
